@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 9
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 292}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 277, y: 271}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 70
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -412,23 +412,23 @@ MonoBehaviour:
     height: 203
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46010000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: fcf8ffffe2fbffff00000000
+    m_ExpandedIDs: e2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Ground
+      m_OriginalName: Ground
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9546
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
@@ -463,7 +463,7 @@ MonoBehaviour:
     y: 316
     width: 275
     height: 390
-  m_ScrollPosition: {x: 0, y: 54.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity\#Projects\Tutorial_CubeDodger
+  m_LastProjectPath: D:\Git\cube-dodger\Tutorial_CubeDodger
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
@@ -544,23 +544,23 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0f7ffff
+    m_SelectedIDs: 3e250000
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000b2240000d6240000f824000026250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FollowPlayer
+      m_OriginalName: FollowPlayer
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10774
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -571,8 +571,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a0f7ffff
-    m_LastClickedInstanceID: -2144
+    m_SelectedInstanceIDs: 3e250000
+    m_LastClickedInstanceID: 9534
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ea040000
     m_RenameOverlay:
@@ -628,14 +628,14 @@ MonoBehaviour:
     width: 594
     height: 445
   m_SceneLighting: 1
-  lastFramingTime: 676.603089561068
+  lastFramingTime: 388.3931483254303
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.595522, y: 1.783968, z: -3.0022922}
+    m_Target: {x: 4.9775386, y: 6.3233805, z: 0.5726453}
     speed: 2
-    m_Value: {x: 2.595522, y: 1.783968, z: -3.0022922}
+    m_Value: {x: 4.9775386, y: 6.3233805, z: 0.5726453}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -658,13 +658,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.36400363, y: -0.4896706, z: 0.2356327, w: 0.75643986}
+    m_Target: {x: 0.15610659, y: -0.45534882, z: 0.08144913, w: 0.8727286}
     speed: 2
-    m_Value: {x: -0.36400363, y: 0.4896706, z: -0.23563272, w: -0.7564399}
+    m_Value: {x: 0.15610652, y: -0.4553486, z: 0.08144909, w: 0.87272817}
   m_Size:
-    m_Target: 20.714655
+    m_Target: 7.7118697
     speed: 2
-    m_Value: 20.714655
+    m_Value: 7.7118697
   m_Ortho:
     m_Target: 0
     speed: 2
