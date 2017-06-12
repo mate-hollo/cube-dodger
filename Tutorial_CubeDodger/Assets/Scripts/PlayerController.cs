@@ -33,9 +33,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey("d"))
             rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
 
-
-
-
+		if (rb.position.y < -1.0f)
+		{
+			FindObjectOfType<GameManager>().endGame();
+		}
         
         
         

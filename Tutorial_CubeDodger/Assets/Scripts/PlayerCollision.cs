@@ -8,11 +8,16 @@ public class PlayerCollision : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        //Debug.Log(collision.collider.tag);
+		//Debug.Log(collision.collider.tag);
 
-        //disable movement script when hitting obstacle
-        if (collision.collider.tag == "obstacle")
-            playerController.enabled = false;
+		//disable movement script when hitting obstacle and invoke game over state
+		if (collision.collider.tag == "obstacle")
+		{
+			playerController.enabled = false;
+			FindObjectOfType<GameManager>().endGame();
+		}
+
+		
     }
 
 }
